@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import pandas as pd
 
 # load Josh Fjelstul's EU member state data.
@@ -42,6 +44,9 @@ membership = (membership
               .assign(membership_adjusted = lambda x: 
                       x["membership_adjusted"].fillna(membership["membership"]))  # propagate missing values for non-adjusted
               )
+
+# adjust first year
+membership.at[0, "membership_adjusted"] = membership["membership"][0] * membership["accession_adjustment"][0]
 
 # adjust membership count for Brexit
 brexit = pd.to_datetime("2020-01-31")
