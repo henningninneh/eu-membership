@@ -6,7 +6,7 @@ The yearly counts are adjusted for the fact that some accessions did
 not happen at the beginning of the year. For example, the 2004 Eastern
 enlargement happened at first of May 2004, and the EU was not founded
 on first of January either. As a result, in 2004, the EU had 21.7
-member states in 2004 -- 15 before and 25 after the first Eastern
+member states -- 15 before and 25 after the first Eastern
 enlargement; and it had 2.7 members in the year of its inception.
 
 Lap years are also taken into account. Brexit is included.
